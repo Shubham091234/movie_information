@@ -5,7 +5,7 @@ const result = document.getElementById("result");
 let getMovie = ()=>{
 
 const movieName=search.value;
-const url = `http://www.omdbapi.com/?t=${movieName}&apikey=92149aba`;
+const url = `https://www.omdbapi.com/?t=${movieName}&apikey=92149aba`;
 
 if(movieName.length <= 0)
 {
