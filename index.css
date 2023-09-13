@@ -50,8 +50,8 @@ body{
    color: white;
 }
  
-#input:focus{
-    border-color: #ffffff;
+#search:focus{
+    border-color: #aca0a0;
 }
 
 #button{
@@ -168,5 +168,8 @@ h1{
         margin: auto;
         width: auto;
         max-height: 10.8rem;
+    }
+    #search{
+        padding: 0px;
     }
 }
